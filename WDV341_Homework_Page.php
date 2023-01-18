@@ -34,8 +34,12 @@
 			<div class="content">
 				<p><a href="../index.html">Return to Home Page</a></p>
 
+                <p>Click on <a href="https://github.com/jakesoul/WDV341">Github Repos</a></p>
+
 				<p>Click on <a href="">Unit 1 - TBD</a></p>
-				
+				<?php
+                echo "<p>Hello world!</p>";
+                ?>
 			</div>
 			
 			
