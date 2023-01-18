@@ -36,7 +36,7 @@
 
                 <p>Click on <a href="https://github.com/jakesoul/WDV341">Github Repos</a></p>
 
-				<p>Click on <a href="">Unit 1 - TBD</a></p>
+				<p>Click on <a href="Unit_2/define_git_keywords.php">Unit 2 - Git Terms</a></p>
 				<?php
                 echo "<p>Hello world!</p>";
                 ?>
