@@ -3,10 +3,10 @@
 	<head>
 		<link rel="stylesheet" href="../stylesheet.css">
 		
-		<title>WDV221 Homework Page</title>
+		<title>WDV341 Homework Page</title>
 		<meta charset="UTF-8">
 		<meta name="author" content="Jake Soulinthavong">
-		<meta name="description" content="WDV221, homework, assignments">
+		<meta name="description" content="WDV341, homework, assignments">
 		
 		<style>
 		
@@ -23,8 +23,6 @@
 	</head>
 
 
-
-
 	<body>
 
 		<h1>Jake Soulinthavong - WDV341 Homework Page</h1>
@@ -37,8 +35,10 @@
                 <p>Click on <a href="https://github.com/jakesoul/WDV341">Github Repos</a></p>
 
 				<p>Click on <a href="Unit_2/define_git_keywords.php">Unit 2 - Git Terms</a></p>
+
+				<p>Click on <a href="Unit_3/PHP_Basics.php">Unit 3 - PHP Basics</a></p>
 				<?php
-                echo "<p>Hello world!</p>";
+                echo "<p> PHP Code: Hello world!</p>";
                 ?>
 			</div>
 			
