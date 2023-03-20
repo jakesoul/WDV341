@@ -32,11 +32,33 @@
 			<div class="content">
 				<p><a href="../index.html">Return to Home Page</a></p>
 
-                <p>Click on <a href="https://github.com/jakesoul/WDV341">Github Repos</a></p>
+                <p><a href="https://github.com/jakesoul/WDV341">Github Repos</a></p>
 
-				<p>Click on <a href="Unit_2/define_git_keywords.php">Unit 2 - Git Terms</a></p>
+				<p><a href="Unit_2/define_git_keywords.php">Unit 2 - Git Terms</a></p>
 
-				<p>Click on <a href="Unit_3/PHP_Basics.php">Unit 3 - PHP Basics</a></p>
+				<p><a href="Unit_3/PHP_Basics.php">Unit 3 - PHP Basics</a></p>
+
+				<p><a href="Unit_4/PHP_Functions.php">Unit 4 - PHP Functions</a></p>
+
+				<p><a href="Unit_5/">Unit 5 - HTML Form Processor</a></p>
+				<p><a href="Email_Project/">Email Project - Contact Form with Email</a></p>
+				<p><a href="Unit_6/">Unit 6.1 - Create WDV341 Database & Events Table</a></p>
+				<p><a href="Unit_6/">Unit 6.2 - Create a Connection File</a></p>
+				<p><a href="Unit_7/">Unit 7.1 - Create selectEvents.php</a></p>
+				<p><a href="Unit_7/">Unit 7.2 - Create selectOneEvent.php</a></p>
+				<p><a href="Unit_8/">Unit 8.1 - PHP Formatted Content</a></p>
+				<p><a href="Unit_9/">Unit 9.1 - PHP JSON Event Object</a></p>
+				<p><a href="Unit_10/">Unit 10 - Protect Form Processors</a></p>
+				<p><a href="Unit_11/">Unit 11 - Self Posting Input Event form with INSERT</a></p>
+				<p><a href="Unit_12/">Unit 12 - Create a form page for the events</a></p>
+				<p><a href="Unit_13/">Unit 13.1 - Create event_user table</a></p>
+				<p><a href="Unit_13/">Unit 13.2 - Create a login.php page</a></p>
+				<p><a href="Unit_13/">Unit 13.3 - Create a logout.php page</a></p>
+				<p><a href="Unit_14/">Unit 14 - Protect your dynamic pages</a></p>
+				<p><a href="Unit_15/">Unit 15 - Create delete functionality</a></p>
+				<p><a href="Unit_16/">Unit 16 - Create Update Form for an Event</a></p>
+				<p><a href="Final_Project/">Final - Content Processing Application</a></p>
+
 				<?php
                 echo "<p> PHP Code: Hello world!</p>";
                 ?>
