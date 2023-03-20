@@ -2,9 +2,6 @@
 <html>
 <head>
 	<title>4-1: PHP Functions</title>
-<html>
-<head>
-	<title>4-1: PHP Functions</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
