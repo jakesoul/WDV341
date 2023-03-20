@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>UNIT 5 - HTML Form Processor</title>
+
+<style>
+
+	form	{
+		width:600px;
+		margin:auto;
+		background-color:lightblue;	
+		padding-left: 20px;
+	}
+	
+	form legend	{
+		font-size:larger;
+		text-align:center;
+	}
+
+  body  {
+    text-align: center;
+  }
+	
+</style>
+
+</head>
+
+<body>
+<h1>WDV341 Intro to PHP</h1>
+<h2>UNIT 5 - HTML Form Processor by Jake Soulinthavong</h2>
+<p>This is an example input form that will demonstrate how a form connects to a server side process.</p>
+<form id="form1" name="form1" method="post" action="formHandler.php">
+    <legend>Example Form</legend>
+    <p>
+        <label for="first_name">First Name:</label> 
+        <input type="text" name="first_name" id="first_name" />
+    </p>
+    <p>
+        <label for="last_name">Last Name:</label> 
+        <input type="text" name="last_name" id="last_name" />
+    </p>
+    <p>
+        <label for="school_name">School Name:</label> 
+        <input type="text" name="school_name" id="school_name" />
+    </p>
+    <p>
+        <label for="customer_email">Customer Email:</label> 
+        <input type="email" name="customer_email" id="customer_email" />
+    </p>
+    <p>
+        <label>Current Academic Standing:</label> 
+        <input type="radio" name="academic_standing" id="high_school" value="High School" />
+        <label for="high_school">High School</label>
+        <input type="radio" name="academic_standing" id="freshman" value="Freshman" />
+        <label for="freshman">Freshman</label>
+        <input type="radio" name="academic_standing" id="sophomore" value="Sophomore" />
+        <label for="sophomore">Sophomore</label>
+    </p>
+    <p>
+        <label for="selected_major">Major:</label> 
+        <select name="selected_major" id="selected_major">
+            <option value="" selected disabled hidden>Choose your major</option>
+            <option value="CIS">Computer Information Systems</option>
+            <option value="GRD">Graphic Design</option>
+            <option value="WDV">Web Development</option>
+        </select>
+    </p>
+    <p>
+        <input type="checkbox" name="program_info" id="program_info" value="Please contact me with program information" />
+        <label for="program_info">Please contact me with program information</label>
+    </p>
+    <p>
+        <input type="checkbox" name="program_advisor" id="program_advisor" value="I would like to contact a program advisor" />
+        <label for="program_advisor">I would like to contact a program advisor</label>
+    </p>
+    <p>
+        <label for="comments">Comments:</label> 
+        <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+    </p>
+    <p>
+        <input type="submit" name="button" id="button" value="Submit" />
+        <input type="reset" name="button2" id="button2" value="Reset" />
+    </p>
+</form>
+</body>
+</html>
