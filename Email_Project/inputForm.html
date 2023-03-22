@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Project: Contact Form with Email</title>
+
+<style>
+
+    body  {
+        font-family: 'Arial', sans-serif;
+        background-color: #54a181;
+    }
+    
+    h1, h2  {
+        text-align: center;
+    }
+
+    form  {
+        width:840px;
+        background-color:#dcf0ea;
+        margin:auto;    
+        padding: 20px; 
+        font-family: 'Arial', sans-serif;
+        font-size:larger;
+        border-style:solid;
+        border-width: thin;
+        border-color: black;
+    }
+
+    form legend	 {
+        font-size:larger;
+        text-align:center;
+    }
+
+    input[type="text"], input[type="email"], textarea, select  {
+        background-color: #fff;
+        color: #000;
+        width: 50%;
+        width:100%;
+        font-family: 'Arial', sans-serif;
+    }
+
+    input[type="submit"], input[type="reset"]  {
+        background-color:#506a6c;
+        font-family: 'Arial', sans-serif;
+        display: inline-block;
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        width: 100px;
+        color:#DCE2F0;
+        cursor:pointer;
+        opacity: 1.0;
+        transition: 0.3s;
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover {opacity: 0.7}
+
+    a:link  {
+        color:white;
+    }
+
+    a:visited  {
+        color:white;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        form {
+            width:90%;
+        }
+    }
+
+</style>
+
+</head>
+
+<body>
+<h1>WDV341 Intro to PHP</h1>
+<h2>Project: Contact Form with Email by Jake Soulinthavong</h2>
+<form id="form1" name="form1" method="post" action="formHandler.php">
+    <legend><strong>Tattoo Shop Contact Form</strong></legend>
+    <p><em>Welcome! Itching for a tattoo? Please fill out the below form and we will get back to you as soon as possible.</em></p>
+    <p>
+        <label for="customer_name" >Full Name:</label> 
+        <input type="text" name="customer_name" id="customer_name" placeholder="Enter your full name"/>
+    </p>
+    <p>
+        <label for="customer_email">Email Address:</label> 
+        <input type="email" name="customer_email" id="customer_email" placeholder="Enter your email address"/>
+    </p>
+    <p>
+        <label for="contact_reason">Reason for Contact:</label> 
+        <select name="contact_reason" id="contact_reason">
+            <option value="" selected disabled hidden>Choose a selection</option>
+            <option value="Appointment">Appointment</option>
+            <option value="Consultation">Consultation</option>
+            <option value="Quote on Tattoo">Quote on Tattoo</option>
+            <option value="Touch Up">Touch Up</option>
+            <option value="Other (Explain in Comments section)">Other (Explain in Comments section)</option>
+        </select>
+    </p>
+    <p>
+        <label for="comments">Comments:</label> 
+        <textarea name="comments" id="comments" rows="5" cols="30" placeholder="Enter comments here"></textarea>
+    </p>
+    <p>
+        <input type="submit" name="button" id="button" value="Submit" />
+        <input type="reset" name="button2" id="button2" value="Reset" />
+    </p>
+</form>
+</body>
+</html>
