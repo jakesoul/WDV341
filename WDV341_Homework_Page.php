@@ -43,7 +43,9 @@
 				<p><a href="Unit_5/inputForm.html">Unit 5 - HTML Form Processor</a></p>
 
 				<p><a href="Email_Project/inputForm.html">Email Project - Contact Form with Email</a></p>
-				<p><a href="Unit_7/selectEvents.php">Unit 7.1 - Create selectEvents.php</a></p>
+				<p><a href="Unit_6/">Unit 6.1 - Create WDV341 Database & Events Table</a></p>
+				<p><a href="Unit_6/">Unit 6.2 - Create a Connection File</a></p>
+				<p><a href="Unit_7/">Unit 7.1 - Create selectEvents.php</a></p>
 				<p><a href="Unit_7/">Unit 7.2 - Create selectOneEvent.php</a></p>
 				<p><a href="Unit_8/">Unit 8.1 - PHP Formatted Content</a></p>
 				<p><a href="Unit_9/">Unit 9.1 - PHP JSON Event Object</a></p>
