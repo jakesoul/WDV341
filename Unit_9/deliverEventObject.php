@@ -13,7 +13,7 @@
         require 'dbConnect.php'; //connect to database
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-        $sql = "SELECT id, name, description, presenter, date, time FROM wdv341_events WHERE id = 1"; // set the PDO error mode to exception
+        $sql = "SELECT name, description, presenter, date, time FROM wdv341_events WHERE name = 'WDV341 Intro PHP'"; // set the PDO error mode to exception
         $stmt = $conn->prepare($sql); // Prepare an SQL SELECT statement to retrieve all events from the events table
         
         // bind any parameters, if any
