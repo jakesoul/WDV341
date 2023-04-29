@@ -8,7 +8,7 @@ require_once('functions.php');
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>WDV 341 Intro PHP - Code Example</title>
+    <title>WDV 341 Intro PHP - Protect Form Processors</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -24,7 +24,7 @@ require_once('functions.php');
 <body>
     <header>
         <h1>WDV341 Intro <span>PHP</span></h1>
-        <p>Form Handler Result Page - Code Example</p>
+        <p>Assignment 10-1: Protect Form Processors</p>
     </header>
 
     <section>
