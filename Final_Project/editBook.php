@@ -118,7 +118,7 @@ $conn = null;
             <option value="1" <?php if ($book['stock_availability'] == 1) echo "selected"; ?>>No</option>
         </select><br>
         <input type="submit" name="save_changes" value="Save Changes">
-    <input type="button" value="Cancel" onclick="window.location.href='login.php'">
+    <input type="submit" value="Cancel" onclick="window.location.href='login.php'">
 </form>
 </body>
 </html>

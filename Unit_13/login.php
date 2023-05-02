@@ -112,6 +112,9 @@
       {
         color: red;
       }
+      li a:hover {
+        color: blue;
+      }
     </style>
   </head>
   <body>
@@ -125,7 +128,7 @@
       <h2>Welcome to the Admin System</h2>
       <h3>You are signed as: <?php echo $inUserName; ?></h3>
       <ul><strong>Admin Options: </strong>
-          <li><a href="formhandler">Enter new events</li>
+          <li><a href="eventInput.php">Enter new events</li>
           <li>Enter new event users</li>
           <li>Show Events List</li>
           <li>Update Events</li>
