@@ -1,0 +1,155 @@
+/* Default styles for all screen sizes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #0077c0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    padding: 1em;
+    text-align: left;
+}
+
+td {
+    font-weight: bold;
+}
+
+th {
+    background-color: #0077c0;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    nav li a {
+        padding: 10px;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    th, td {
+        font-size: 0.8em;
+        padding: 0.5em;
+    }
+}
