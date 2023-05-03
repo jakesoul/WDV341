@@ -5,7 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Contact Form</title>
         <link rel="stylesheet" href="stylesheets/contactStylesheet.css">
-
+        <style>        
+            .honeyPot
+            {
+                display:none;
+            }
+        </style>
     </head>
 
     <body>
@@ -30,6 +35,11 @@
                 <label for="customer_email">Email Address:</label> 
                 <input type="email" name="customer_email" id="customer_email" placeholder="Enter your email address"/>
             </p>
+            <p class="honeyPot">
+                <label for="phone-number">Phone Number:</label>
+                <input type="text" name="phone-number" id="phone-number" value="">
+            </p>
+
             <p>
                 <label for="contact_reason">Reason for Contact:</label> 
                 <select name="contact_reason" id="contact_reason">

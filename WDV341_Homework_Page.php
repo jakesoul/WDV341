@@ -53,8 +53,8 @@
 				<p><a href="Unit_10/form-handler-homework/form-handler-homework.php">Unit 10 - Protect Form Processors</a></p>
 				<p><a href="Unit_11/class_example/selfPostingForm1.php">Unit 11 - Self Posting Input Event form with INSERT</a></p>
 				<p><a href="Unit_12/selfPostingForm.php">Unit 12 - Create a form page for the events</a></p>
-				<p><a href="Unit_13/">Unit 13.2 - Create a login.php page</a></p>
-				<p><a href="Unit_13/">Unit 13.3 - Create a logout.php page</a></p>
+				<p><a href="Unit_13/login.php">Unit 13.2 - Create a login.php page</a></p>
+				<p><a href="Unit_13/login.php">Unit 13.3 - Create a logout.php page</a></p>
 				<p><a href="Unit_14/">Unit 14 - Protect your dynamic pages</a></p>
 				<p><a href="Unit_15/">Unit 15 - Create delete functionality</a></p>
 				<p><a href="Unit_16/">Unit 16 - Create Update Form for an Event</a></p>

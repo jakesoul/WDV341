@@ -1,19 +1,37 @@
 <?php
-    include "email_template.php";
-    include "notify_contact.php";
-
     // Variables
+    /*
     $customer_name = $_POST["customer_name"];
     $customer_email = $_POST["customer_email"];
     $contact_reason = $_POST["contact_reason"];
     $message_section = $_POST["message"];
-
+    */
     // Functions
     function submitDate()  {               
         $date = date("m/d/y");              
         return $date;                       
     }
+    
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+    {
+        if (!empty($_POST['honeyPot'])) 
+        {
+            exit();
+        }
 
+        $customer_name = $_POST["customer_name"];
+        $customer_email = $_POST["customer_email"];
+        $contact_reason = $_POST["contact_reason"];
+        $message_section = $_POST["message"];
+
+        include "email_template.php";
+        include "notify_contact.php";
+    }
+    else
+    {
+        // Form was not submitted successfully, send an email to notify
+        include "bot_alert_notify_contact.php";
+    }
 ?>
 
 <!DOCTYPE html>

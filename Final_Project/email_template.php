@@ -50,7 +50,7 @@
             </p>
     
             <p>
-                Thank for you for your interest in our tattoo shop. You contacted us on " . submitDate() . ".</p>
+                Thank for you for your interest in our library. You contacted us on " . submitDate() . ".</p>
             <p>
                 Your reason of contact is " . $_POST['contact_reason'] . ".
             </p>
