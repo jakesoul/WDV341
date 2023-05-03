@@ -7,7 +7,7 @@
 
     if( isset($_POST['submit']))
     { 
-      $dbConnect = "dbConnect_localmachineserverxampp.php";
+      $dbConnect = "../Unit_7/dbConnect.php";
       $inUserName = $_POST['inUserName'];
       $inPassword = $_POST['inPassword'];
 
