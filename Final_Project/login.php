@@ -91,7 +91,7 @@
                 <link rel="stylesheet" href="stylesheets/stylesheet.css">
             </head>
             <h2>Hello, <?php echo $_SESSION['username']; ?>! </h2>
-            <h3>Welcome to the Admin System</h3>
+            <h3>Welcome to the Admin Portal</h3>
             <nav>
                 <ul>
                     <li class="addBook"><a href="addBook.php">Add book</a></li>
